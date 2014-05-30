@@ -1,0 +1,12 @@
+*~
+*.app
+*.beam
+*.d
+*.html
+*.dump
+*.plt
+.eunit
+.rebar
+/doc
+/deps
+/logs
