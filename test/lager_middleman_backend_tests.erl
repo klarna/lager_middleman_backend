@@ -66,7 +66,6 @@ setup() ->
   ok       = application:start(syntax_tools),
   ok       = application:start(goldrush),
   application:load(lager),
-  console_handler(),
   Handlers = [file_handler(file1()),
               wrap(file_handler(file2())),
               console_handler(),
